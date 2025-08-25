@@ -35,7 +35,8 @@ def main():
     while True:
         result = play_once()
         if result == "tie":
-            print("It's a tie — rematch!\n")
+            print("It's a tie, let’s play again!\n")
+            
             continue
         print(f"{result.capitalize()} wins!")
         break
