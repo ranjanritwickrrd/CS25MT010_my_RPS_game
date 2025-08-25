@@ -7,7 +7,7 @@ def get_player_choice() -> str:
         choice = input("Choose rock, paper, or scissors: ").strip().lower()
         if choice in CHOICES:
             return choice
-        print("Oops, not a valid choice. Please type: rock, paper, or scissors.")
+        print("please give a valid choice. Please type: rock, paper, or scissors.")
 
 def get_computer_choice() -> str:
     return random.choice(CHOICES)
