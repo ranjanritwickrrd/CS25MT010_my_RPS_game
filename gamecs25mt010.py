@@ -29,7 +29,8 @@ def play_once() -> str:
     return decide_winner(player, comp)
 
 def main():
-    print("Welcome to Rock–Paper–Scissors! (No ties mode)")
+    pprint("Welcome! Rock–Paper–Scissors — No ties allowed!")
+
     print("Rules: rock > scissors, scissors > paper, paper > rock.")
 
     while True:
